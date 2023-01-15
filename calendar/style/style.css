@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.calendar{
+    width: 800px;
+    height: 100%;
+}
+
+.days{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:auto;
+    gap: 10px;
+    max-width: 60rem;
+    justify-items: center;
+}
+
+
+.day{
+    height: 100px;
+    width: 100%;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgb(122, 120, 120);
+    color: #f8f8f8;
+    background-color: aliceblue;
+}
+
+.day:hover{
+    background-color: rgb(143, 143, 143);
+}
+
+
+.day.selected{
+    background-color: rgb(139, 187, 219);
+}
+
+
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #929292;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.choices{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #929292;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 5px solid #929292;
+    margin-top: 60px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    height: 100%;
+}
+
+.choices:hover{
+    border-color: rgb(139, 187, 219);
+}
