@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins&display=swap');
+
+
+
+body{
+    margin: 0;
+    background-color: #0d1a2d;
+}
+
+h1, h2, p{
+    font-family: 'Outfit', sans-serif;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container{
+    background-color: #15273f;
+    border-radius: 26px;
+    padding: 28px;
+    box-shadow: 2px 20px 0px 20px #07162a, 0px 2px 0px 60px #0c192c;
+    
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display img{
+    width: auto;
+    height: 340px;
+    border-radius: 15px;
+}
+
+
+.comments h1{
+    color: #ffff;
+    font-size: 22px;
+    margin: 25px 0 20px 0;
+}
+
+.comments p{
+    color: #91a5c2;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.description{
+    width: 320px;
+}
+
+.details-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #273951;;
+    padding: 0 0 22px 0;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coin-title{
+    color: #00f7f4;
+    font-weight: 600;
+}
+
+.clock-title{
+    color: #8bacd9;
+    font-weight: 300;
+}
+
+.coin-title, .clock-title {
+    margin: 0 0 0 10px;
+    font-size: 18px;
+}
+
+.observation{
+    display: flex;
+    align-items: center;
+    margin: 15px 0 15px 0;
+}
+
+.observation img{
+    max-width: 30px;
+    border: 2px solid #ffff;
+    border-radius: 50%;
+}
+
+.observation p{
+    margin: 0 20px;
+}
+
+.observation span{
+    color: #ffff;
+}
